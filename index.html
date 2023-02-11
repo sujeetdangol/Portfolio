@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="Web Designing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="Index,Folow">
+    <meta name="og:title" content="Portfolio">
+    <meta name="og:description" content="About myself">
+    <meta name="og:image:src" content="IMG.jpg">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="flex w-100 flex-center header-padding fixed">
+            <nav class="container">
+                <ul class="flex">
+                    <li><a href="#home" >Home</a></li>
+                    <li><a href="#intro" >Introduction</a></li>
+                    <li><a href="#education" >Education</a></li>
+                    <li><a href="#hobbies">Hobbies</a> </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="hero hero-bg cover flex" id="home">
+        <h2 class="hero-text">Welcome to my Portfolio</h2>
+    </section>
+
+    <section class="hero grid grid-c-2" style="background-color: #080808;" id="intro">
+        <div class="intro-photo rounded o-hidden">
+            <img src="Img (2).jpg" class="h-100 w-100">
+        </div>
+
+        <div class="sbs-container">
+            <h2 class="hero-text">Sujeet Dangol</h2>
+            <p>Hi, I'm Sujeet Dangol. Currently I'm pursuing my course<br> in BSc(Hons) Computer Science from Herald College</p>
+            <span class="sktxt">Skills</span> <br>
+            <div id="skill-altxt">
+            </div>
+        </div>
+    </section>
+
+    <section class="hero grid grid-c-2 edu-bg cover" id="education">
+        <h2 class="hero-text edu-text">My education</h2>
+        <div class="educont">
+            <h2>Modern Indian School (2011-2020)</h2>
+            <h2>Uniglobe College (2021-2022)</h2>
+        </div>
+    </section>
+
+    <section class="hero flex col" style="background-color: #080808;" id="hobbies">
+        <h2 class="hobbies-text">My Hobbies</h2>
+        <div class="grid grid-c-3 hobbies-cont">
+            <div class="hobby-img-holder o-hidden rounded">
+                <img src="Sketch.jpg">
+                <div class="hobby-cap">
+                    <h2>Sketching</h2>
+                </div>
+            </div>
+
+            <div class="hobby-img-holder o-hidden rounded">
+                <img src="camera.jpg">
+                <div class="hobby-cap">
+                    <h2>Photography</h2>
+                </div>
+            </div>
+
+            <div class="hobby-img-holder o-hidden rounded">
+                <img src="football.jpg">
+                <div class="hobby-cap">
+                    <h2>Football</h2>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="hero cover contact-bg flex col" id="contact">
+        <h2 class="hobbies-text">Contact</h2>
+        <form>
+            <label>Name</label>
+            <input />
+            
+            <label>Email</label>
+            <input type="email"/>
+            
+            <label>Message</label>
+            <textarea></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+    <footer>
+        Copyright@2022
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
